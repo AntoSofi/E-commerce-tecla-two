@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <head>
+     <meta charset="UTF-8">
+     <html lang="es"></html>
+     <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+     <header>
+        <img src="imagenes/logo.png.png" alt="Tecla Two logo" id="logo">
+     </header>
+     <nav>
+        <ul>
+            <li><a href="#nosotros">Acerca de nosotros</a></li>
+            <li><a href="#contactanos">Contacto</a></li>
+            <li><a href="#productos">Productos destacados</a></li>
+        </ul>
+     </nav>
+     <main>
+        <section class="video">
+            <video src="imagenes/video.mp4.mp4" controls></video>
+        </section>
+        <br>
+        <br>
+        <br>
+       <h2 id="nosotros">ACERCA DE NOSOTROS</h2>
+       <p>Somos una empresa familiar fundada en 2007. Nos dedicamos a la fabricación y envío de telcados para computadoras, con ventas al por mayor o minorista. Hacemos trabajos personalizados y stock de diseños únicos, teclados de membrana y mecánicos. Su consulta no molesta!</p>
+       <h2 id="productos">PRODUCTOS DESTACADOS</h2>
+     <section class="productos">
+       <article>
+        <img src="imagenes/teclado1.png">
+        <p>TECLADO 1</p>
+        <p>$30.000</p>
+        <p>Descripción: teclado mecánico negro rgb</p>
+        <button class="btn-carrito">
+         <i class="fa-solid fa-cart-shopping"></i>
+          Agregar al carrito
+        </button>
+       </article>
+       <article>
+        <img src="imagenes/teclado2.png">
+        <p>TECLADO 2</p>
+        <p>$25.000</p>
+        <p>Descripción: teclado mecánico luz azul</p>
+        <button class="carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Agregar al carrito
+        </button>
+       </article>
+       <article>
+        <img src="imagenes/teclado3.webp">
+        <p>TECLADO 3</p>
+        <p>$35.000</p>
+        <p>Descripción: teclado blanco rgb mecánico</p>
+        <button class="btn-carrito">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Agregar al carrito
+        </button>
+       </article>
+     </section>
+
+     <h2 id="contactanos">CONTACTANOS</h2>
+     <form action="https://formspree.io/f/xdkwpawe" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+      <button type="submit">Enviar</button>
+     </form>
+     <table style="border: 2px;">
+        <tr>
+            <th>NOMBRE</th>
+            <th>CORREO</th>
+            <th>MENSAJE</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Antonella</td>
+                <td>anto@gmail.com</td>
+                <td>Quería información sobre los métodos de envío que tienen</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>juan@gmail.com</td>
+                <td>Me gustaría saber que métodos de pago manejan</td>
+            </tr>
+            <tr>
+                <td>Alejandra</td>
+                <td>ale@gmail.com</td>
+                <td>Hola, hacen envío al exterior?</td>
+            </tr>
+        </tbody>
+       </table>
+      </main>
+      <footer>
+        <button class="mail">
+            <i class="fa-brands fa-envelope"></i>
+            Gmail
+        </button>
+        <button class="instagram">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+        </button>
+        <button class="mail">
+            <i class="fa-brands fa-facebook"></i>
+            Facebook
+        </button>
+      </footer>
+    </body>
+    

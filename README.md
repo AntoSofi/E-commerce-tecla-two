@@ -1,0 +1,1 @@
+Este es mi proyecto de e-commerce para el curso de front-end. Saludos!
