@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+     <meta charset="UTF-8">
+     <html lang="es"></html>
+     <link rel="stylesheet" href="c:\Proyecto clase front-end\styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head> 
+    <body>
+     <h2 id="contactanos">CONTACTANOS</h2>
+     <form name="formulario" action="https://formspree.io/f/xdkwpawe" method="POST" onsubmit="return validarFormulario()">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+      <button type="submit">Enviar</button>
+     </form>
+     <table style="border: 2px;">
+        <tr>
+            <th>NOMBRE</th>
+            <th>CORREO</th>
+            <th>MENSAJE</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Antonella</td>
+                <td>anto@gmail.com</td>
+                <td>Quería información sobre los métodos de envío que tienen</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>juan@gmail.com</td>
+                <td>Me gustaría saber que métodos de pago manejan</td>
+            </tr>
+            <tr>
+                <td>Alejandra</td>
+                <td>ale@gmail.com</td>
+                <td>Hola, hacen envío al exterior?</td>
+            </tr>
+        </tbody>
+       </table>  
+       <script src="c:\Proyecto clase front-end\script.js"></script>
+    </body>
+ 

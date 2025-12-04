@@ -9,7 +9,10 @@ body {
 }
 ul{
     list-style: none;
-    font-size: 40px;
+    font-size: 40px;   
+}
+li{
+   padding-bottom: 30px;  
 }
 a{
     text-decoration: none;
@@ -43,6 +46,10 @@ button{
     justify-content: space-around;
     align-items: center;
     
+}
+.textoNosotros{
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 
