@@ -9,10 +9,10 @@ body {
 }
 ul{
     list-style: none;
-    font-size: 40px;   
+    font-size: 60px;   
 }
 li{
-   padding-bottom: 30px;  
+   padding-bottom: 40px;  
 }
 a{
     text-decoration: none;
@@ -26,13 +26,30 @@ a:hover{
 h2{
     text-decoration: underline;
 }
-table, th, td{
+table, th, td {
   border: 1px solid;
-  padding: 10px;
+  padding-top: 30px;
   margin: auto;
+}
+th, td{
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 button{
     background-color: rgb(221, 183, 147);
+}
+.btn-carrito{
+    width: 60px;
+    height: 60px;
+}
+.btn-restar, .btn-sumar {
+    width: 40px;
+    height: 30px;
+}
+.btn-eliminar{
+    width: 70px;
+    height: 30px;
 }
 @media (max-width: 768px){
     .productos{
@@ -45,11 +62,26 @@ button{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
+    padding-top: 50px;
 }
 .textoNosotros{
     margin-left: 130px;
     margin-right: 130px;
+    padding-top: 50px;
+    text-align: justify;
+}
+.productosTitulo, .carrito-titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.productosImagen, .carrito-img{
+    padding-top: 40px;
+}
+.btn-enviar{
+    width: 80px;
+    height: 30px;
 }
 
 

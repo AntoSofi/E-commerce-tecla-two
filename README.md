@@ -1,1 +1,1 @@
-Este es mi proyecto de e-commerce para el curso de front-end. Saludos!
+Este es mi proyecto de e-commerce para el curso de front-end. Hice una simulación de un e-commerce de productos electronicos utilizando la api de fakestore que proporcionaron en el curso y filtre los productos por categoría electronics. Saludos!
